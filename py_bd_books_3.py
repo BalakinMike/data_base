@@ -63,7 +63,7 @@ def create_tables(engine):
     Base.metadata.create_all(engine)
 
 login = 'postgres'
-password = 'Mikmik38'
+password = ''
 name_db = 'py_bd_books'
 
 DSN = 'postgresql://' + login + ':' + password + '@localhost:5432/' + name_db
